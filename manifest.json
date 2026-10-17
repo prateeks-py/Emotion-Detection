@@ -1,0 +1,26 @@
+{
+  "dataset_name": "Emotion lexicon starter dataset",
+  "rows": 10000,
+  "source_counts": {
+    "synthetic": 10000
+  },
+  "languages": [
+    "en",
+    "hi",
+    "hinglish",
+    "es",
+    "fr",
+    "ar"
+  ],
+  "random_seed": 20261017,
+  "current_bundle_status": "synthetic_only",
+  "mixed_mode_pipeline": "build_dataset.py --mixed --size 10000 --public-rows 7000 --outdir mixed_build",
+  "source_note": "No real-source records are included in the generated starter files. Mixed mode must fetch public records in a network-enabled environment.",
+  "limitations": [
+    "Synthetic template-generated examples are weakly labeled and not representative of natural conversation.",
+    "Synthetic rows are not real user messages.",
+    "Sensitive categories are not clinical or legal judgments.",
+    "Public emotion datasets do not automatically provide annotations for profanity, abuse, sexual boundaries, discrimination, or self-harm.",
+    "Human review is recommended before training or evaluation."
+  ]
+}

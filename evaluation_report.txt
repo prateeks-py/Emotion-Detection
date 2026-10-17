@@ -1,0 +1,31 @@
+TEST RESULTS
+Accuracy: 1.0000
+Macro F1: 1.0000
+
+Classification report:
+              precision    recall  f1-score   support
+
+       anger       1.00      1.00      1.00       142
+     disgust       1.00      1.00      1.00        71
+        fear       1.00      1.00      1.00       215
+         joy       1.00      1.00      1.00        71
+        love       1.00      1.00      1.00        71
+     neutral       1.00      1.00      1.00        71
+     sadness       1.00      1.00      1.00       216
+       shame       1.00      1.00      1.00        72
+    surprise       1.00      1.00      1.00        71
+
+    accuracy                           1.00      1000
+   macro avg       1.00      1.00      1.00      1000
+weighted avg       1.00      1.00      1.00      1000
+
+Confusion matrix (rows=true, columns=predicted; labels=["anger", "disgust", "fear", "joy", "love", "neutral", "sadness", "shame", "surprise"]):
+[[142   0   0   0   0   0   0   0   0]
+ [  0  71   0   0   0   0   0   0   0]
+ [  0   0 215   0   0   0   0   0   0]
+ [  0   0   0  71   0   0   0   0   0]
+ [  0   0   0   0  71   0   0   0   0]
+ [  0   0   0   0   0  71   0   0   0]
+ [  0   0   0   0   0   0 216   0   0]
+ [  0   0   0   0   0   0   0  72   0]
+ [  0   0   0   0   0   0   0   0  71]]
